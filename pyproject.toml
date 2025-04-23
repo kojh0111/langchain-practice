@@ -1,0 +1,16 @@
+[project]
+name = "langchain-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "langchain>=0.3.1",
+    "langchain-community>=0.3.1",
+    "langchain-core>=0.3.1",
+    "langchain-ollama==0.3.1",
+    "langchain-teddynote>=0.3.45",
+    "python-multipart>=0.0.20",
+    "uvicorn[standard]>=0.34.2",
+]
